@@ -1,2 +1,2 @@
-# CaliColecciona-
-Plataforma de experiencias y coleccionables de Cali
+# CALI COLECCIONA v0.1
+Arquitectura inicial del proyecto.
