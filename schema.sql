@@ -1,0 +1,6 @@
+CREATE TABLE users(id INTEGER PRIMARY KEY,name TEXT,email TEXT);
+CREATE TABLE companies(id INTEGER PRIMARY KEY,name TEXT,latitude REAL,longitude REAL);
+CREATE TABLE promotions(id INTEGER PRIMARY KEY,company_id INTEGER,title TEXT);
+CREATE TABLE qr_codes(id INTEGER PRIMARY KEY,company_id INTEGER,code TEXT);
+CREATE TABLE visits(id INTEGER PRIMARY KEY,user_id INTEGER,company_id INTEGER);
+CREATE TABLE collectibles(id INTEGER PRIMARY KEY,name TEXT,image TEXT);
